@@ -4,7 +4,7 @@ Command line backup for Raspbian (copied from https://github.com/raspberrypi-ui/
 To use:
 1. Clone this repo to your Raspberry Pi with:
 ```sh
-git clone 
+git clone https://github.com/nwright-mcc/pi_backup.git
 ```
 2. Insert a backup SD card in a USB card reader in any USB connector of the Pi. The SD card must be large enough to hold all of your files on your existing Pi SD card.
 3. Determine what device name the SD card uses:
