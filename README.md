@@ -1,10 +1,10 @@
-# pi_backup
+# piclone_cmd
 Command line version of piclone from Raspbian (copied from https://github.com/raspberrypi-ui/piclone/ and modified.)  This creates a file-by-file backup of your Raspbian SD card or any other device so will work with a larger or smaller target SD card.
 
 To use:
 1. Clone this repo to your Raspberry Pi with:
    ```sh
-   git clone https://github.com/nwright-mcc/pi_backup.git
+   git clone https://github.com/nwright-mcc/piclone_cmd.git
    ```
    If you do not have git installed, first run:
    ```sh
@@ -25,3 +25,4 @@ To use:
    cd ~/pi_backup
    sudo ./piclone_cmd /dev/sda
    ```
+5. The program will display status and progress.
