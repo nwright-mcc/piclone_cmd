@@ -22,7 +22,7 @@ To use:
    You should see /dev/sda and /dev/sda1 (and possibly more, depending on how many partitions the SD card has.)  If there are more, such    as /dev/sdb, then you must remove the other USB media or determine which device matches your USB reader.
 4. Go to the pi_backup directory then run piclone_cmd, specifying the correct device name from #3 above:
    ```sh
-   cd ~/pi_backup
+   cd ~/piclone_cmd
    sudo ./piclone_cmd /dev/sda
    ```
 5. The program will display status and progress.
