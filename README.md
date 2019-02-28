@@ -1,5 +1,5 @@
 # pi_backup
-Command line backup for Raspbian (copied from https://github.com/raspberrypi-ui/piclone/blob/master/src/backup in case it is removed.)  This creates a file-by-file backup of your Raspbian SD card so will work with a larger or smaller target SD card but takes longer than creating an image with a tool like win32diskimager.
+Command line version of piclone from Raspbian (copied from https://github.com/raspberrypi-ui/piclone/ and modified.)  This creates a file-by-file backup of your Raspbian SD card or any other device so will work with a larger or smaller target SD card.
 
 To use:
 1. Clone this repo to your Raspberry Pi with:
